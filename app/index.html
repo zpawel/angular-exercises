@@ -16,10 +16,10 @@
         </tr>
         </thead>
         <tbody>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
+        <tr ng-repeat="item in blogPosts.posts">
+            <th>{{item.id}}</th>
+            <th>{{item.author}}</th>
+            <th>{{item.title}}</th>
         </tr>
         </tbody>
     </table>
